@@ -1,0 +1,82 @@
+body {
+  /*
+  background-image: url(/assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+
+  /*shorthand ou atalho*/
+  /*background: color image repeat position/size */
+  background: url(/assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+#container-1 {
+  /*border: 1px solid white;*/
+  margin: 24px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-2 {
+  margin: 24px;
+  /*border: 1px solid white;*/
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#container-3 {
+  margin: 24px;
+  /*border: 1px solid white;*/
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#avatar-1 {
+  display: block;
+  width: 112px;
+  height: 112px;
+}
+
+#instagram {
+  display: block;
+  color: white;
+}
+
+#botao-animado {
+  color: white;
+  background-color: transparent;
+  display: block;
+}
+
+.links {
+  display: block;
+  background-color: transparent;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+.redes {
+  color: white;
+  background-color: transparent;
+}
+
+footer {
+  margin: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  /*border: 1px solid white;*/
+}
+
+footer a {
+  color: white;
+}
