@@ -1,65 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevLinks</title>
     <link rel="stylesheet" href="/reset.css" />
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
   </head>
   <body>
-    <div id="container-1">
-      <img id="avatar-1" src="/assets/avatar-light.png" alt="" />
-      <p id="instagram">@maykbrito</p>
-      <button id="botao-animado" class="bi bi-moon-stars"></button>
-    </div>
-    <div id="container-2">
-      <nav>
-        <button class="links">
-          <a href="https://www.youtube.com/channel/UC0i_jmOYbmiirRcfeTq-KRA"
-            >Inscreva-se</a
+    <div id="container-master">
+      <div id="profile">
+        <img src="/assets/avatar.png" alt="Foto de perfil" />
+        <p>@maykbrito</p>
+      </div>
+      <ul>
+        <li><a href="">Inscreva-se no NLW</a></li>
+        <li><a href="">Baixe meu e-book</a></li>
+        <li>
+          <a href="https://github.com/campos032" target="_blank"
+            >Veja meu portfólio</a
           >
-        </button>
-        <button class="links">
-          <a
-            href="https://www.marcogouveia.pt/wp-content/uploads/ebook-google-ads.pdf"
-            >Baixe meu e-book
-          </a>
-        </button>
-        <button class="links">
-          <a href="https://github.com/Campos032">Veja meu portfólio</a>
-        </button>
-        <button class="links">
-          <a href="https://www.google.com.br/?hl=pt-BR">Conheça o Explorer</a>
-        </button>
-      </nav>
+        </li>
+        <li><a href="">Conheça o Explorer</a></li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/campos032" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://instagram.com/junior_ifl" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://youtube.com/@playerdaddy3324" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://linkedin.com/in/márcio-campos-júnior-22393528b" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+          Feito com ♥ pela <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
+      </footer>
     </div>
-    <div id="container-3">
-      <nav>
-        <button class="redes">
-          <i class="bi bi-github"></i
-          ><a href="https://github.com/Campos032"></a>
-        </button>
-        <button class="redes"><i class="bi bi-instagram"></i></button>
-        <button class="redes"><i class="bi bi-youtube"></i></button>
-        <button class="redes"><i class="bi bi-linkedin"></i></button>
-      </nav>
-    </div>
-    <footer>
-      <p>
-        Feito com <i class="bi bi-heart-fill"></i> pela
-        <a href="https://rocketseat.com.br">Rocketseat</a>
-      </p>
-    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
